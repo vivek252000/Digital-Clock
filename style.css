@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.whole{
+    width: 100vw;
+    height: 100%;
+    background-color: #3D087B;
+    display: flex;
+}
+.left{
+    width: 48vw;
+}
+.right{
+    width: 48vw;
+}
+.lone{
+    display: flex;
+    justify-content: space-between;
+}
+.clock{
+    padding: 20px 30px;
+}
+.ltwo{
+    width: 46vw;
+    height: 50vh;
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+}
+.select{
+    color: #3D087BDE;
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.text1{
+    padding: 5px;
+    color: #3D087B;
+}
+.content{
+    padding: 8.5px;
+    display: flex;
+    justify-content: space-around;
+}
+.lthree{
+    width: 46vw;
+/*     height: 10vh; */
+    background-color: #9140B5;
+    margin: 30px;                      /*this is edited */
+    border: 1px solid #9140B5;
+    border-radius: 10px;
+}
+.FontThird{
+    font-size: 32px;
+    color: white;
+    margin: 20px 100px;
+}
+.lfour{
+    width: 46vw;
+    height: 15vh;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fourOne{
+    width: 45%;
+    height: 60%;
+    background-image: linear-gradient(
+        to right,
+        #6E54EC,
+        #CB52F8,
+        #FC5EFF
+    );
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.fourOne:hover{
+    background-image: linear-gradient(
+        to left,
+        #6E54EC,
+        #CB52F8,
+        #FC5EFF
+    );
+}
+.fourTwo{
+    width: 45%;
+    height: 110%;
+    background-color: #8A11BF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+.rone{
+    display: flex;
+    align-items: center;
+}
+.clock1{
+    z-index: 1;
+    width: 36vw;
+    height: 20vh;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: #9140B5;
+    position: absolute;
+    top: 20px;
+    right: 110px;
+}
+.clock2{
+    z-index: 2;
+    width: 41vw;
+    height: 19vh;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: #F6E2FF;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+.clock3{
+    z-index: 3;
+    width: 46vw;
+    height: 18vh;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: #8A11BF;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.time{
+    width: 6vw;
+    height: 12vh;
+    text-align: center;
+    margin: 55px 0px;
+    font-size: 24px;
+}
+.hour{
+    width: 6vw;
+    height: 12vh;
+    text-align: center;
+    background-color:#e1c4ee;
+    border-radius: 2px;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+.minut{
+    width: 6vw;
+    height: 12vh;
+    text-align: center;
+    background-color:#e1c4ee;
+    border-radius: 2px;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+.sec{
+    width: 6vw;
+    height: 12vh;
+    text-align: center;
+    background-color:#e1c4ee;
+    border-radius: 2px;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+.am{
+    width: 6vw;
+    height: 12vh;
+    text-align: center;
+    background-image: url("AM_svg.jpg");
+    background-size: 100% 100%;
+    border-radius: 2px;
+    margin: 20px 0px;
+    font-size: 24px;
+    color: white;
+}
+.dout{
+    font-size: 64px;
+    padding: 20px 0px;
+}
+.rtwo{
+    width: 46vw;
+    /*  height: 12vh; */
+    margin: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: #8E53F0;
+    font-size: 32px;
+}
+.rtext{
+    color: #8E53F0;
+    font-size: 32px;
+    padding: 40px 70px;
+}
+.image{
+    width: 46vw;
+    margin: 0px 30px;
+}
+.line{
+    position: relative;
+    left: 80px;
+    height: 30px;
+    border-left: solid #C2C2C2;
+}
